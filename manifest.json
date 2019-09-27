@@ -1,0 +1,29 @@
+{
+  "name": "Proofy",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "description": "Hack Zürich 2019",
+  "homepage_url": "http://extensionizr.com",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "default_locale": "en",
+  "background": {
+    "scripts": [
+      "src/bg/background.js"
+    ],
+    "persistent": true
+  },
+  "browser_action": {
+    "default_icon": "icons/icon19.png",
+    "default_title": "browser action demo"
+  },
+  "permissions": [
+    "downloads",
+    "notifications",
+    "tabs",
+    "<all_urls>"
+  ]
+}
